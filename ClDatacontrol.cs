@@ -32,8 +32,8 @@ namespace Skaterboy
         int snelheid;
         public ClDatacontrol()
         {
-            string pw = "lucDWil6Info@21";
-            connectieString = "Server=83.217.67.11;Port=3306;SslMode = none;Database=06InfoLucas;Uid=06InfoLucas;Pwd=" + pw;
+            string pw = "";
+            connectieString = "" + pw;
             connectie = new MySqlConnection();
             connectie.ConnectionString = connectieString;
 
